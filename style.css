@@ -68,3 +68,19 @@ nav a {
         padding: 10px;
     }
 }
+/* Add this style for certifications list */
+#certificationsList {
+    list-style: none;
+    padding: 0;
+}
+
+#certificationsList li {
+    margin-bottom: 10px;
+}
+
+/* Add responsive design for certifications */
+@media screen and (max-width: 600px) {
+    #content {
+        padding: 10px;
+    }
+}
