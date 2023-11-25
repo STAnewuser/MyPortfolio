@@ -56,3 +56,30 @@ document.getElementById('projects').addEventListener('click', function () {
     loadProjects();
     filterProjects(); // To ensure all projects are visible initially
 });
+
+// Add this function to dynamically load certification items
+function loadCertifications() {
+    var certifications = [
+        { name: 'Certification 1', agency: 'Certification Agency 1' },
+        { name: 'Certification 2', agency: 'Certification Agency 2' },
+        // Add more certifications as needed
+    ];
+
+    var certificationsList = document.getElementById('certificationsList');
+
+    // Clear existing list items
+    certificationsList.innerHTML = '';
+
+    // Populate the certifications list
+    certifications.forEach(function (certification) {
+        var listItem = document.createElement('li');
+        var text = document.createTextNode(`${certification.name} - ${certification.agency}`);
+        listItem.appendChild(text);
+        certificationsList.appendChild(listItem);
+    });
+}
+
+// Call the loadCertifications function when the certifications tab is shown
+document.getElementById('certifications').addEventListener('click', function () {
+    loadCertifications();
+});

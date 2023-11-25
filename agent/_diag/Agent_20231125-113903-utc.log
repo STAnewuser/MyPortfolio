@@ -1429,3 +1429,46 @@ Date: Sat, 25 Nov 2023 14:36:56 GMT
 [2023-11-25 15:25:15Z INFO MessageListener] Sleeping for 14.865 seconds before retrying.
 [2023-11-25 15:26:21Z INFO MessageListener] Sleeping for 10.785 seconds before retrying.
 [2023-11-25 15:27:23Z INFO MessageListener] Sleeping for 5.832 seconds before retrying.
+[2023-11-25 15:28:19Z INFO MessageListener] Sleeping for 10.106 seconds before retrying.
+[2023-11-25 15:29:19Z INFO MessageListener] Sleeping for 8.564 seconds before retrying.
+[2023-11-25 15:30:18Z INFO MessageListener] Sleeping for 12.766 seconds before retrying.
+[2023-11-25 15:31:21Z INFO MessageListener] Sleeping for 5.078 seconds before retrying.
+[2023-11-25 15:32:16Z INFO MessageListener] Sleeping for 11.019 seconds before retrying.
+[2023-11-25 15:32:28Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodcus11.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: cc20998e-09df-42e0-8001-07c710fa1e4e
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 0c2b50a7-ece5-4150-ad12-7b17bd3f15c8
+X-TFS-Session: 4d94959b-2b29-4d67-bb2a-300fae6f8217
+X-VSS-E2EID: 5948dff7-328b-4748-a09d-5a1b94981383
+X-VSS-SenderDeploymentId: d136b81c-aa93-dcc4-1ec2-11e9265a24b7
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodcus11.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/k201621/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/k201621/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcus5.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2Fk201621%2F_apis%2Fdistributedtask%2Fpools%2F1%2Fmessages%3FsessionId%3D3a03e8b4-d4bf-4fed-9cfc-3910b67c20c9&redirect=1&hid=4e182fef-7367-4f65-8acc-42f77d163558&context=eyJodCI6MiwiaGlkIjoiMjRjODFhMDUtM2Q4YS00OTIyLWFkMDAtODk5OTYwODc3YTIwIiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:95397750-473c-4b67-aecb-8630338922cf
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: FF333C6A307C40BA97DB7AD410BF7EE1 Ref B: DXB30EDGE0117 Ref C: 2023-11-25T15:32:27Z
+Date: Sat, 25 Nov 2023 15:32:27 GMT
+
+[2023-11-25 15:32:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\Comfinite\Desktop\Devops Ass1\agent\.credentials_rsaparams
+[2023-11-25 15:32:28Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2023-11-25 15:33:18Z INFO MessageListener] Sleeping for 8.307 seconds before retrying.
+[2023-11-25 15:34:17Z INFO MessageListener] Sleeping for 10.133 seconds before retrying.
+[2023-11-25 15:35:17Z INFO MessageListener] Sleeping for 9.619 seconds before retrying.
+[2023-11-25 15:36:18Z INFO MessageListener] Sleeping for 14.353 seconds before retrying.
+[2023-11-25 15:37:22Z INFO MessageListener] Sleeping for 5.967 seconds before retrying.
+[2023-11-25 15:38:18Z INFO MessageListener] Sleeping for 5.38 seconds before retrying.
+[2023-11-25 15:39:14Z INFO MessageListener] Sleeping for 8.744 seconds before retrying.
+[2023-11-25 15:40:13Z INFO MessageListener] Sleeping for 13.131 seconds before retrying.
+[2023-11-25 15:41:17Z INFO MessageListener] Sleeping for 11.93 seconds before retrying.
+[2023-11-25 15:42:19Z INFO MessageListener] No message retrieved from session '3a03e8b4-d4bf-4fed-9cfc-3910b67c20c9' within last 30 minutes.
+[2023-11-25 15:42:19Z INFO MessageListener] Sleeping for 7.602 seconds before retrying.
