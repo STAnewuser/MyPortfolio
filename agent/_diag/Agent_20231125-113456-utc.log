@@ -1,0 +1,24 @@
+[2023-11-25 11:34:56Z INFO AgentProcess] Agent package win-x64.
+[2023-11-25 11:34:56Z INFO AgentProcess] Running on Windows (X64).
+[2023-11-25 11:34:56Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.19045.
+[2023-11-25 11:34:56Z INFO AgentProcess] Version: 3.230.0
+[2023-11-25 11:34:56Z INFO AgentProcess] Commit: 38c1c98225330a622c93f210f579286eb5a2136d
+[2023-11-25 11:34:56Z INFO AgentProcess] Culture: en-US
+[2023-11-25 11:34:56Z INFO AgentProcess] UI Culture: en-US
+[2023-11-25 11:34:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\Comfinite\Desktop\Devops Ass1\agent\bin'
+[2023-11-25 11:34:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\Comfinite\Desktop\Devops Ass1\agent'
+[2023-11-25 11:34:56Z INFO AgentProcess] Validating directory permissions for: 'C:\Users\Comfinite\Desktop\Devops Ass1\agent'
+[2023-11-25 11:34:57Z ERR  Terminal] WRITE ERROR: An error occurred: Permission to read the directory contents is required for 'C:\Users\Comfinite\Desktop\Devops Ass1\agent' and each directory up the hierarchy. Access to the path 'C:\Users\Comfinite\Desktop\Devops Ass1' is denied.
+[2023-11-25 11:34:57Z ERR  AgentProcess] System.UnauthorizedAccessException: Permission to read the directory contents is required for 'C:\Users\Comfinite\Desktop\Devops Ass1\agent' and each directory up the hierarchy. Access to the path 'C:\Users\Comfinite\Desktop\Devops Ass1' is denied.
+ ---> System.UnauthorizedAccessException: Access to the path 'C:\Users\Comfinite\Desktop\Devops Ass1' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path)
+   at Microsoft.VisualStudio.Services.Agent.Util.IOUtil.ValidateExecutePermission(String directory) in D:\a\1\s\src\Agent.Sdk\Util\IOUtil.cs:line 420
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.Services.Agent.Util.IOUtil.ValidateExecutePermission(String directory) in D:\a\1\s\src\Agent.Sdk\Util\IOUtil.cs:line 430
+   at Microsoft.VisualStudio.Services.Agent.Listener.Program.MainAsync(IHostContext context, String[] args) in D:\a\1\s\src\Agent.Listener\Program.cs:line 63

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Your Name - Home</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showTab('home')">Home</a></li>
+                <li><a href="#" onclick="showTab('projects')">Projects</a></li>
+                <li><a href="#" onclick="showTab('education')">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="title-bar">
+        <h1>Talha Ali</h1>
+    </div>
+    <div id="content">
+        <div id="home" class="tab">
+            <h2>About Me</h2>
+            <p>This is a small intro about yourself.</p>
+        </div>
+        <div id="projects" class="tab">
+            <h2>Projects</h2>
+            <label for="filter">Filter by Technology:</label>
+            <input type="text" id="filter" oninput="filterProjects()">
+            <ul id="projectList">
+                <!-- Project items will be dynamically loaded here -->
+            </ul>
+        </div>
+        </div>
+        <div id="education" class="tab">
+            <!-- Education content will be dynamically loaded here -->
+        </div>
+    </div>
+</body>
+</html>

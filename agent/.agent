@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 9,
+  "agentName": "AgentSelfHosted",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://dev.azure.com/k201621/",
+  "workFolder": "_work"
+}
